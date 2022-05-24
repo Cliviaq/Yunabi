@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            border:3px solid lightskyblue;
+       text-decoration: #0adf64;
+        }
+        h3{
+            color: purple;
+            font-size: xx-large;
+            font-family: monospace;
+        }
+        form{
+            color: rgb(11, 42, 16);
+         margin:2px;
+            font-family: "DejaVu Serif";
+            text-align: justify;
+        }
+        input{
+            margin: 2px;
+            color: darkmagenta;
+            background-color: azure;
+            padding: 2px;
+            border:2px solid rgb(11, 42, 16);;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms...</title>
+</head>
+<body style="background-color: rgba(218,193,193,0.99)">
+<h3>Student registration </h3>
+<form action="Contacts.html"method="get">
+    <label for="First name">First name</label><br>
+    <input type="text" id="First name"placeholder="Bryce"><br>
+    <label for=" Sir Name">Sir name</label><br>
+    <input type="text" id=" Sir Name"placeholder= "Wheeler"><br>
+    <label for="MALE"> Gender</label><br>
+    <label for="MALE"> Male</label>
+    <input type="radio"id=male name="gender" placeholder="male">
+    <label for="FEMALE"> Female</label>
+    <input type="radio"id=Female name="gender">
+    <label for="FEMALE"> Other</label>
+    <input type="radio"id=Other name="gender"><br>
+    <label for=" Address">E mail</label><br>
+    <input type="email"id=" Address"><br>
+    <label for="DOB"> Date of Birth</label><br>
+    <input type="date"id="DOB" placeholder="13/11/2000"><br>
+    <label for=" Pass">Password</label><br>
+    <input type="password"id=" Pass"><br>
+    <input type="checkbox"id="morning" NAME="Day">
+    <label for="morning">Morning</label>
+    <input type="checkbox"id="Afternoon" name="Afternoon">
+    <label for="Afternoon">afternoon</label><br>
+    <select name="course" id="course">
+        <option value="android">Android</option>
+        <option value="Java Script">Java Script</option>
+        <option value="Html">HTML</option>
+        <option value="Python">Python</option>
+    </select><br>
+    <label for="upload image">Image</label><br>
+    <input type="file"id="upload image"><br>
+    <input type="submit" value="REGISTER..">
+</form>
+</body>
+</html>

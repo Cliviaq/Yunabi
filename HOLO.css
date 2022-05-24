@@ -1,0 +1,53 @@
+.car{
+    border: 2px solid lawngreen ;
+    text-align: center;
+    padding: 15px;
+    background-color: #e18b8b;margin: 12px;
+}
+.fruits{
+    border: 2px solid #20ff00;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255, 169, 169, 0.99);margin: 12px;
+}
+.Cars{
+    border: 2px solid #0adc0a;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(255, 189, 189);margin: 12px;
+}
+.Car{
+    border: 2px solid #00fc04;
+    text-align: center;
+    padding: 18px;
+    background-color: #d27d7d;margin: 12px;
+}
+#MRS{
+    border: 2px solid #0000ff;
+    text-align: right;
+    padding: 7px;
+    background-color: #b46eb4;margin: 10px;
+    color: goldenrod;
+}
+#Name {
+    border: 2px solid #3264ff;
+    text-align: center;
+    padding: 7px;
+    background-color: #b45faa;
+    margin: 10px;
+    color: goldenrod ;
+}
+#SIR{
+    border: 2px solid #3c5aff;
+    text-align: left ;
+    padding: 10px;
+    background-color: #b450a0;
+    margin: 7px;
+    color:  goldenrod;
+}
+
+
+
+
+
+
